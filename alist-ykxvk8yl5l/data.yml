@@ -1,0 +1,20 @@
+name: Alist-Ykxvk8yl5l
+tags:
+    - 工具
+title: AList魔改版
+type: 工具
+description: AList魔改版
+additionalProperties:
+    key: alist-ykxvk8yl5l
+    name: Alist-Ykxvk8yl5l
+    tags:
+        - Tool
+    shortDescZh: AList魔改版
+    shortDescEn: AList edition
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    recommend: 0
+    website: https://github.com/ykxvk8yl5l/alist
+    github: https://github.com/ykxvk8yl5l/alist
+    document: https://github.com/ykxvk8yl5l/alist
