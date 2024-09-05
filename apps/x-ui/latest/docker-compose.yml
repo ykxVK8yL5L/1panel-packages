@@ -2,13 +2,12 @@ services:
   alist:
     container_name: ${CONTAINER_NAME}
     restart: always
-    networks:
-      - host
+    network_mode: host
     volumes:
       - "${DATA_PATH}/db/:/etc/x-ui/"
       - "${DATA_PATH}/cert/:/root/cert/"
     environment:
-      - XRAY_VMESS_AEAD_FORCED=${XRAY_VMESS_AEAD_FORCED}
+      - XRAY_VMESS_AEAD_FORCED=false
     image: ghcr.io/mhsanaei/3x-ui:latest
     labels:  
       createdBy: "Apps"
