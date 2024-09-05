@@ -1,0 +1,20 @@
+name: 3x-ui
+tags:
+    - 工具
+title: 3x-ui
+type: 工具
+description: 一个更好的面板 • 基于Xray Core构建
+additionalProperties:
+    key: 3x-ui
+    name: 3x-ui
+    tags:
+        - Tool
+    shortDescZh: 一个更好的面板 • 基于Xray Core构建
+    shortDescEn: 一个更好的面板 • 基于Xray Core构建
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    recommend: 0
+    website: https://github.com/MHSanaei/3x-ui
+    github: https://github.com/MHSanaei/3x-ui
+    document: https://github.com/MHSanaei/3x-ui

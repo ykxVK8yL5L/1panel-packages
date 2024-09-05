@@ -1,0 +1,16 @@
+additionalProperties:
+    formFields:
+        - default: false
+          edit: true
+          envKey: XRAY_VMESS_AEAD_FORCED
+          labelEn: XRAY_VMESS_AEAD_FORCED
+          labelZh: XRAY_VMESS_AEAD_FORCED
+          required: true
+          type: bool
+        - default: ./data/data
+          edit: true
+          envKey: DATA_PATH
+          labelEn: Data folder path
+          labelZh: 数据文件夹路径
+          required: true
+          type: text
